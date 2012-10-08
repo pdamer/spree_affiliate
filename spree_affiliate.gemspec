@@ -17,8 +17,8 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_paths = ["lib"]
 
-  s.add_dependency('spree_core', '>= 0.40.0')
-  s.add_dependency('spree_auth', '>= 0.40.0')
+  s.add_dependency('spree_core', '>= 0.70.0')
+  s.add_dependency('spree_auth', '>= 0.70.0')
   s.add_dependency('spree_store_credits', '>= 1.0.0')
   s.add_dependency('spree_email_to_friend', '>= 1.0.0')
 end
